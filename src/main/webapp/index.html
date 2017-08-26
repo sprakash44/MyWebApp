@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+	<form action="index.html" method="post" onsubmit="" name="valForm">
+		<div align="center">
+			<table>
+			<h2><U>REGISTRATION FORM</U></h2>
+				<tr>
+					<td><label><b>UserName</b></label></td>
+					<td><input id="uname" type="text" placeholder="UserName" name="uname" required></td>
+				</tr>
+				<tr>
+					<td><label><b>Password</b></label></td>
+					<td><input id="pwd" type="password" placeholder="Password"
+						name="pwd" required></td>
+				</tr>
+				<tr>
+					<td><label><b>Confirm Password</b></label></td>
+					<td><input id="con_pwd" type="password"
+						placeholder="Repeat Password" name="con_pwd" required></td>
+				</tr>
+				<tr>
+					<td><label><b>Firstname</b></label></td>
+					<td><input type="text" id="fname" placeholder="First Name"
+						name="fname" required="required"></td>
+				</tr>
+				<tr>
+					<td><label><b>Lastname</b></label></td>
+					<td><input type="text" id="lname" placeholder="Last Name"
+						name="lname" required="required"></td>
+				</tr>
+				<tr>
+					<td><label><b>Firstname</b></label></td>
+					<td><input type="text" id="fullname" placeholder="Full Name"
+						name="fullname" required="required"></td>
+				</tr>
+				<tr>
+					<td><label><b>Email</b></label></td>
+					<td><input id="email" type="email"
+						placeholder="user@example.com" name="email" required></td>
+				</tr>
+			</table>
+			<div>
+				<button type="button" class="btn" onclick="validateFields()">Register</button>
+				<button type="button" class="btn" onclick="window.location.href='Login.html'">Cancel</button>
+				<button type="reset" class="btn" onclick="">ResetForm</button>
+
+			</div>
+		</div>
+
+	</form>
+
+
+</body>
+<footer>
+	<script src="Resgister.js">	</script>
+</footer>
+</html>

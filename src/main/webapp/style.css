@@ -1,0 +1,11 @@
+.btn {
+  background: #349fd9;
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  border-radius: 9px;
+  font-family: Georgia;
+  color: #fffaaa;
+  font-size: 25px;
+  padding: 5px 20px 5px 20px;
+  text-decoration: none;
+}
